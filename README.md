@@ -3,10 +3,10 @@
 ## Descripción
 Este es un proyecto realizado para el curso de diseño centrado en el usuario
 en la [Universidad Nacional Abierta y a Distancia](https://www.unad.edu.co/) por los miebros del equipo:
-- Kevin Santiago Hernandez Escobar [kshernandeze@unadvirtual.edu.co](kshernandeze@unadvirtual.edu.co)
+- Kevin Santiago Hernandez Escobar [kshernandeze@unadvirtual.edu.co](#Kevin Miebro del equipo)
 - Jahir Aantonio Carvajal Bernal [Correo institucional](kshernandeze@unadvirtual.edu.co)
 - Yeison Mayken Martinez Cuenca [Correo institucional](kshernandeze@unadvirtual.edu.co)
-- Lorena Stephanie Montero Rodriguez [Correo institucional](kshernandeze@unadvirtual.edu.co)
+- Lorena Stephanie Montero Rodriguez [Correo institucional](lsmonteror@unadvirtual.edu.co)
 - Leonardo Stive Poveda Martinez [Correo institucional](kshernandeze@unadvirtual.edu.co)
 
 PROFESOR:
