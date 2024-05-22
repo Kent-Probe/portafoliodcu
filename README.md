@@ -3,11 +3,14 @@
 ## Descripción
 Este es un proyecto realizado para el curso de diseño centrado en el usuario
 en la [Universidad Nacional Abierta y a Distancia](https://www.unad.edu.co/) por los miebros del equipo:
-- Kevin Santiago Hernandez Escobar [kshernandeze@unadvirtual.edu.co](#Kevin Miebro del equipo)
+- Kevin Santiago Hernandez Escobar [kshernandeze@unadvirtual.edu.co](#Kevin "Miebro del equipo")
 - Jahir Aantonio Carvajal Bernal [Correo institucional](kshernandeze@unadvirtual.edu.co)
 - Yeison Mayken Martinez Cuenca [Correo institucional](kshernandeze@unadvirtual.edu.co)
 - Lorena Stephanie Montero Rodriguez [Correo institucional](lsmonteror@unadvirtual.edu.co)
 - Leonardo Stive Poveda Martinez [Correo institucional](kshernandeze@unadvirtual.edu.co)
+
+<p style="color: blue;">Este es un texto en color azul utilizando HTML.</p>
+
 
 PROFESOR:
 * Gustavo Eduardo Constain Moreno
