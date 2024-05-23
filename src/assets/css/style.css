@@ -2,7 +2,7 @@
   --background-color: #f3f3fa;
   --background-color-secundary: #49446b;
   --color-principal: #7469b6;
-  --color-secundary: #ad88c6;
+  --color-secundary: #FFE6E6;
   --color-third: #ad88c6;
   --color-black: #000;
   --color-text-principal: #e1afd1;
@@ -58,10 +58,50 @@ body {
 
 /* Menu */
 .layout__menu {
-  position: absolute;
+  position: fixed;
   right: 0;
-  top: 50%;
+  width: 50rem;
+  z-index: 10;
+  top: calc(50% - 8rem);
 }
+
+.menu__options{
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: start;
+}
+
+.menu__link{
+  position: relative;
+  padding: 2rem;
+  padding-right: 10rem;
+  font-size: 2rem;
+  color: var(--color-principal);
+  transition: padding 300ms ease-in-out;
+}
+
+.menu__link::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-left: 2rem;
+  height: 3px;
+  width: 100%;
+
+  background-color: var(--color-third);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu__link--active{
+  padding-right: 15rem;
+}
+
+.menu__link:hover{
+  padding-right: 20rem;
+}
+
 
 /* home */
 .home__container {
@@ -90,7 +130,7 @@ body {
 
 .home__shapes {
   position: absolute;
-  top: -180px;
+  top: -250px;
   left: 450px;
   z-index: -1;
 }
@@ -169,7 +209,7 @@ body {
 .card__container-img {
   position: relative;
   border-radius: 5px;
-  width: 900px;
+  width: 1000px;
 }
 
 .card__img {
