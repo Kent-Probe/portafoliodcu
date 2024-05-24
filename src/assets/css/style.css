@@ -9,6 +9,7 @@
   --color-text: #2b283e;
   --color-text-card: #ffe6e6;
   --color-border: #d6d9ef;
+  --color-border-secundary: #F1EFFB;
 }
 
 html {
@@ -19,7 +20,6 @@ html {
 body {
   width: 100%;
   height: 100%;
-
   font-size: 1.6rem;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -116,7 +116,7 @@ body {
 
 .home__title {
   margin: 10rem auto;
-  font-family: "Inknut Antiqua", sans-serif;
+  font-family:  "Inknut Antiqua", Arial, Helvetica, sans-serif;
   font-size: 15rem;
   background: linear-gradient(
     var(--color-principal) 30%,
@@ -289,6 +289,108 @@ body {
   font-size: 2rem !important;
   margin-bottom: 1rem;
 }
+
+/* Results */
+.result__content{
+  width: auto !important;
+  height: 500px;
+  background-color: var(--color-text);
+  margin: 5rem 20rem;
+  margin-bottom: 15rem;
+  padding: 10rem 20rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.result__data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.result__title{
+  width: 100%;
+  font-family: "Inknut Antiqua", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 3;
+  font-weight: 600;
+  color: var(--background-color);
+  text-align: center;
+}
+
+.result__res{
+  position: relative;
+  width: 230px;
+  height: 230px;
+}
+
+.result__res::after{
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 30px solid var(--color-border-secundary);
+  border-radius: 100%;
+  
+}
+
+.result__res::before {
+  position: absolute;
+  z-index: 10;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  color: var(--background-color);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.result__res--A::before{
+  content: '80%';
+  background: 
+    radial-gradient(
+      closest-side, 
+      var(--color-text) 59%, 
+      transparent 60% 100%
+    ),
+    conic-gradient(
+      var(--color-third) 80%, 
+      transparent 0%
+    );
+}
+
+.result__res--B::before{
+  content: '20%';
+  background: 
+    radial-gradient(
+      closest-side, 
+      var(--color-text) 59%, 
+      transparent 60% 100%
+    ),
+    conic-gradient(
+      transparent 80%, 
+      var(--color-principal) 0%
+    );
+}
+
+
 
 /* Animations */
 @keyframes backgroudImg {
