@@ -46,4 +46,5 @@ Para iniciar el proyecto, Abre el index.html
 
 ### Repositorio
 * Link del respositorio: [https://github.com/Kent-Probe/portafoliodcu](https://github.com/Kent-Probe/portafoliodcu)
-* Link de la pagina: [----](https://Kent-Probe/portafoliodcu.io)
+* Link de la pagina: [https://kent-probe.github.io/portafoliodcu/](https://kent-probe.github.io/portafoliodcu/)
+* Link del diseño en figma: [https://www.figma.com/design/DeZTZ4S4tZ6lEKAaUVhukk/portafoliodcu?node-id=0-1&t=Bo0lQg8zjoOpeqyX-1](https://www.figma.com/design/DeZTZ4S4tZ6lEKAaUVhukk/portafoliodcu?node-id=0-1&t=Bo0lQg8zjoOpeqyX-1)
