@@ -14,7 +14,7 @@ en la [Universidad Nacional Abierta y a Distancia](https://www.unad.edu.co/) por
 PROFESOR:
 * Gustavo Eduardo Constain Moreno
 
-* License: MIT
+* License: ...
 
 ### Instalación
 Sigue estos pasos para instalar el proyecto:
@@ -42,4 +42,8 @@ Sigue estos pasos para instalar el proyecto:
 - Tener PC :v ^_____^
 
 ### Uso
-Para iniciar el proyecto, ejecuta: Abre el index.html
+Para iniciar el proyecto, Abre el index.html
+
+### Repositorio
+* Link del respositorio: [https://github.com/Kent-Probe/portafoliodcu](https://github.com/Kent-Probe/portafoliodcu)
+* Link de la pagina: [----](https://Kent-Probe/portafoliodcu.io)
