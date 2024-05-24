@@ -14,7 +14,7 @@ en la [Universidad Nacional Abierta y a Distancia](https://www.unad.edu.co/) por
 PROFESOR:
 * Gustavo Eduardo Constain Moreno
 
-* License: ...
+* License: MIT Para mas infomracion lea la (**license**)[[./license.md](https://github.com/Kent-Probe/portafoliodcu/blob/master/license.md)]
 
 ### Instalación
 Sigue estos pasos para instalar el proyecto:

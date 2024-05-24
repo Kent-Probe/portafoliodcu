@@ -18,12 +18,14 @@ const goHome = document.getElementById("goHome");
 const goTeam = document.getElementById("goTeam");
 const goProyect = document.getElementById("goProyect");
 const goResult = document.getElementById("goResult");
+const goDesign = document.getElementById("goDesign");
 
 // Seccion
 const principal = document.getElementById('principal');
 const team = document.getElementById("team");
 const proyect = document.getElementById("proyect");
 const result = document.getElementById("result");
+const design = document.getElementById("design");
 
 
 window.addEventListener('scroll', function() {
@@ -33,28 +35,39 @@ window.addEventListener('scroll', function() {
     const teamPosicion = team.getBoundingClientRect();
     const proyectPosicion = proyect.getBoundingClientRect();
     const resultPosicion = result.getBoundingClientRect();
+    const designPosicion = design.getBoundingClientRect();
     
-
     if(principalPosicion.top < window.innerHeight && principalPosicion.bottom >= 0) {
         goHome.classList.add(classActive)
         goTeam.classList.remove(classActive)
         goProyect.classList.remove(classActive)
         goResult.classList.remove(classActive)
+        goDesign.classList.remove(classActive)
     }
     else if(teamPosicion.top < window.innerHeight && teamPosicion.bottom >= 0) {
         goTeam.classList.add(classActive)
         goHome.classList.remove(classActive)
         goProyect.classList.remove(classActive)
         goResult.classList.remove(classActive)
+        goDesign.classList.remove(classActive)
     }
     else if(proyectPosicion.top < window.innerHeight && proyectPosicion.bottom >= 0) {
         goProyect.classList.add(classActive)
         goTeam.classList.remove(classActive)
         goHome.classList.remove(classActive)
         goResult.classList.remove(classActive)
+        goDesign.classList.remove(classActive)
     }
     else if(resultPosicion.top < window.innerHeight && resultPosicion.bottom >= 0) {
         goResult.classList.add(classActive)
+        goTeam.classList.remove(classActive)
+        goProyect.classList.remove(classActive)
+        goHome.classList.remove(classActive)
+        goDesign.classList.remove(classActive)
+    }
+    else if(designPosicion.top < window.innerHeight && designPosicion.bottom >= 0) {
+        goDesign.classList.add(classActive)
+        goResult.classList.remove(classActive)
         goTeam.classList.remove(classActive)
         goProyect.classList.remove(classActive)
         goHome.classList.remove(classActive)
