@@ -216,8 +216,11 @@ body {
 
 .card__img {
   width: 100%;
+  max-height: 250px;
   position: absolute;
   top: -45px;
+
+  border-radius: 1rem;
 }
 
 .card__text {
@@ -375,7 +378,7 @@ body {
 }
 
 .result__res--A::before{
-  content: '80%';
+  content: '37%';
   background: 
     radial-gradient(
       closest-side, 
@@ -383,13 +386,13 @@ body {
       transparent 60% 100%
     ),
     conic-gradient(
-      var(--color-third) 80%, 
+      var(--color-third) 37%, 
       transparent 0%
     );
 }
 
 .result__res--B::before{
-  content: '20%';
+  content: '62%';
   background: 
     radial-gradient(
       closest-side, 
@@ -397,7 +400,7 @@ body {
       transparent 60% 100%
     ),
     conic-gradient(
-      transparent 80%, 
+      transparent 37%, 
       var(--color-principal) 0%
     );
 }
