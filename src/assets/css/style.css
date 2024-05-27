@@ -14,7 +14,6 @@
 
 html {
   font-size: 10px;
-  overflow-x: hidden;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 /* Layout Principal */
@@ -62,7 +62,7 @@ body {
   position: fixed;
   right: 0;
   width: 50rem;
-  z-index: 10;
+  z-index: 100;
   top: calc(50% - 30rem);
 }
 
@@ -103,7 +103,6 @@ body {
   padding-right: 20rem;
 }
 
-
 /* home */
 .home__container {
   position: relative;
@@ -131,26 +130,27 @@ body {
 
 .home__shapes {
   position: absolute;
-  top: -100px;
+  top: -250px;
   left: 100px;
   left: calc(50% - 30rem);
   z-index: -1;
+  background-color: red;
+}
+
+.shapes__item{
+  position: absolute;
 }
 
 .shapes__item--base {
-  position: absolute;
-  bottom: -280px;
-  right: -40px;
   z-index: -2;
+  width: 800px;
+  top: 400px;
+  left: calc(-50% - 100px);
 }
 
 .shapes__item--ellipse {
   width: 600px;
   animation: openImg 1s, backgroudImg 5s infinite;
-}
-
-.shapes__container--base {
-  width: 800px;
 }
 
 .layout__line {
@@ -561,6 +561,29 @@ body {
   border-radius: 10rem;
   border: 0.2rem solid var(--color-principal);
   opacity: 1;
+}
+
+.layout__menu-toggle{
+  position: fixed;
+  display: none;
+  right: 80px;
+  top: 10px;
+  z-index: 10;
+}
+
+.menu-toggle__icon{
+  position: absolute;
+  font-size: 6rem;
+  cursor: pointer;
+  color: var(--color-third);
+  top: 0;
+  left: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.fa-xmark{
+  left: 5px;
+  opacity: 0;
 }
 
 
